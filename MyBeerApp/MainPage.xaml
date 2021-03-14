@@ -4,7 +4,8 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
     <StackLayout>
-        <StackLayout Margin="15,15,15,10" Orientation="Horizontal">
+        <!--  Titre et Bouton ajout à la liste  -->
+        <StackLayout Margin="15,15,15,5" Orientation="Horizontal">
             <Label
                 FontAttributes="Bold"
                 FontSize="Title"
@@ -18,7 +19,9 @@
                 VerticalOptions="CenterAndExpand"
                 WidthRequest="30" />
         </StackLayout>
-        <StackLayout Margin="15,15,15,10" Orientation="Horizontal">
+
+        <!--  Phrase d'introduction  -->
+        <StackLayout Margin="15,0,15,25" Orientation="Horizontal">
             <Label
                 FontSize="Body"
                 HorizontalOptions="StartAndExpand"
@@ -26,7 +29,7 @@
                 TextColor="Gray"
                 VerticalOptions="CenterAndExpand" />
             <Image
-                Margin="-60,0,0,0"
+                Margin="-60,-5,0,0"
                 HorizontalOptions="StartAndExpand"
                 IsAnimationPlaying="True"
                 Source="cheers.gif"
@@ -34,7 +37,7 @@
                 WidthRequest="50" />
         </StackLayout>
 
-        <!-- Liste des bières -->
+        <!--  Liste des bières  -->
         <ListView
             x:Name="ListOfBeers"
             Margin="0,0,0,50"
@@ -47,38 +50,29 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-
-                        <Frame Margin="15,10,15,10" Padding="0,0,5,0">
-
+                        <Frame Margin="15,10,15,10" VerticalOptions="StartAndExpand">
                             <StackLayout
                                 Padding="0"
                                 HorizontalOptions="StartAndExpand"
                                 Orientation="Horizontal"
                                 VerticalOptions="StartAndExpand">
                                 <Image Source="{Binding Image}" WidthRequest="100" />
-                                <StackLayout Orientation="Vertical">
+                                <StackLayout
+                                    Padding="10,5,0,0"
+                                    Orientation="Vertical"
+                                    VerticalOptions="FillAndExpand">
                                     <Label
-                                        Padding="10,5,0,0"
-                                        Margin="0"
                                         FontAttributes="Bold"
-                                        FontSize="24"
+                                        FontSize="22"
                                         HorizontalOptions="StartAndExpand"
-                                        VerticalOptions="StartAndExpand"
                                         Text="{Binding Name, Mode=TwoWay}"
                                         TextColor="DimGray" />
-                                    <StackLayout  BackgroundColor="Blue" Orientation="Vertical">
                                     <Label
-                                        
-                                        Margin="0"
-                                        Padding="10,0,0,0"
                                         FontSize="12"
                                         HorizontalOptions="StartAndExpand"
-                                        VerticalOptions="StartAndExpand"
                                         Text="{Binding Description}"
-                                        TextColor="DimGray" />
-                                        </StackLayout>
-
-
+                                        TextColor="DimGray"
+                                        VerticalOptions="StartAndExpand" />
                                 </StackLayout>
                             </StackLayout>
                         </Frame>
