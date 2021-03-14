@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MyBeerApp.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <StackLayout>
+        <StackLayout Margin="15,15,15,10" Orientation="Horizontal">
+            <Label
+                FontAttributes="Bold"
+                FontSize="Title"
+                Text="Liste de bières"
+                TextColor="#ec9d00"
+                VerticalOptions="CenterAndExpand" />
+
+            <ImageButton
+                HorizontalOptions="EndAndExpand"
+                Source="plus.png"
+                VerticalOptions="CenterAndExpand"
+                WidthRequest="30" />
+        </StackLayout>
+        <StackLayout Margin="15,15,15,10" Orientation="Horizontal">
+            <Label
+                FontSize="Body"
+                HorizontalOptions="StartAndExpand"
+                Text="A compléter sans modération ..."
+                TextColor="Gray"
+                VerticalOptions="CenterAndExpand" />
+            <Image
+                Margin="-60,0,0,0"
+                HorizontalOptions="StartAndExpand"
+                IsAnimationPlaying="True"
+                Source="cheers.gif"
+                VerticalOptions="CenterAndExpand"
+                WidthRequest="50" />
+        </StackLayout>
+
+        <!-- Liste des bières -->
+        <ListView
+            x:Name="ListOfBeers"
+            Margin="0,0,0,50"
+            HasUnevenRows="True"
+            ItemTapped="ListOfBeers_ItemTapped"
+            ItemsSource="{Binding Beers, Mode=TwoWay}"
+            RowHeight="150"
+            SelectionMode="Single"
+            SeparatorVisibility="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+
+                        <Frame Margin="15,10,15,10" Padding="0,0,5,0">
+
+                            <StackLayout
+                                Padding="0"
+                                HorizontalOptions="StartAndExpand"
+                                Orientation="Horizontal"
+                                VerticalOptions="StartAndExpand">
+                                <Image Source="{Binding Image}" WidthRequest="100" />
+                                <StackLayout Orientation="Vertical">
+                                    <Label
+                                        Padding="10,5,0,0"
+                                        Margin="0"
+                                        FontAttributes="Bold"
+                                        FontSize="24"
+                                        HorizontalOptions="StartAndExpand"
+                                        VerticalOptions="StartAndExpand"
+                                        Text="{Binding Name, Mode=TwoWay}"
+                                        TextColor="DimGray" />
+                                    <StackLayout  BackgroundColor="Blue" Orientation="Vertical">
+                                    <Label
+                                        
+                                        Margin="0"
+                                        Padding="10,0,0,0"
+                                        FontSize="12"
+                                        HorizontalOptions="StartAndExpand"
+                                        VerticalOptions="StartAndExpand"
+                                        Text="{Binding Description}"
+                                        TextColor="DimGray" />
+                                        </StackLayout>
+
+
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

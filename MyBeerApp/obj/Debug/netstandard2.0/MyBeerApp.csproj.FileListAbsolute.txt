@@ -1,0 +1,15 @@
+/Users/elise/Desktop/MyBeerApp/MyBeerApp/bin/Debug/netstandard2.0/MyBeerApp.deps.json
+/Users/elise/Desktop/MyBeerApp/MyBeerApp/bin/Debug/netstandard2.0/MyBeerApp.dll
+/Users/elise/Desktop/MyBeerApp/MyBeerApp/bin/Debug/netstandard2.0/ref/MyBeerApp.dll
+/Users/elise/Desktop/MyBeerApp/MyBeerApp/bin/Debug/netstandard2.0/MyBeerApp.pdb
+/Users/elise/Desktop/MyBeerApp/MyBeerApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/elise/Desktop/MyBeerApp/MyBeerApp/obj/Debug/netstandard2.0/BeerDetailPage.xaml.g.cs
+/Users/elise/Desktop/MyBeerApp/MyBeerApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/elise/Desktop/MyBeerApp/MyBeerApp/obj/Debug/netstandard2.0/MyBeerApp.AssemblyInfoInputs.cache
+/Users/elise/Desktop/MyBeerApp/MyBeerApp/obj/Debug/netstandard2.0/MyBeerApp.AssemblyInfo.cs
+/Users/elise/Desktop/MyBeerApp/MyBeerApp/obj/Debug/netstandard2.0/MyBeerApp.csproj.CoreCompileInputs.cache
+/Users/elise/Desktop/MyBeerApp/MyBeerApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/elise/Desktop/MyBeerApp/MyBeerApp/obj/Debug/netstandard2.0/MyBeerApp.dll
+/Users/elise/Desktop/MyBeerApp/MyBeerApp/obj/Debug/netstandard2.0/ref/MyBeerApp.dll
+/Users/elise/Desktop/MyBeerApp/MyBeerApp/obj/Debug/netstandard2.0/MyBeerApp.pdb
+/Users/elise/Desktop/MyBeerApp/MyBeerApp/obj/Debug/netstandard2.0/MyBeerApp.csprojAssemblyReference.cache

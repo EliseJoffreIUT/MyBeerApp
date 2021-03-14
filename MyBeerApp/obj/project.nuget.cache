@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "EJAMblq3GpIzN//7LbPPEyz05sjfhBcIjHJ/mGkYBL8wTScKkTsrZY1l4dV5HqXQLIZh0jFoqFUFyDWpYf/5Qw==",
+  "success": true,
+  "projectFilePath": "/Users/elise/Desktop/MyBeerApp/MyBeerApp/MyBeerApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/elise/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/elise/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/elise/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/elise/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/elise/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
