@@ -12,4 +12,3 @@
 /Users/elise/Desktop/MyBeerApp/MyBeerApp/obj/Debug/netstandard2.0/MyBeerApp.dll
 /Users/elise/Desktop/MyBeerApp/MyBeerApp/obj/Debug/netstandard2.0/ref/MyBeerApp.dll
 /Users/elise/Desktop/MyBeerApp/MyBeerApp/obj/Debug/netstandard2.0/MyBeerApp.pdb
-/Users/elise/Desktop/MyBeerApp/MyBeerApp/obj/Debug/netstandard2.0/MyBeerApp.csprojAssemblyReference.cache

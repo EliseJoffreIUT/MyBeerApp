@@ -68,7 +68,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CustomViewCellRenderer.cs" />
+    <Compile Include="Renderers\CustomViewCellRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -121,11 +121,14 @@
     <BundleResource Include="Resources\plus.png" />
     <BundleResource Include="Resources\cuvee.jpg" />
     <BundleResource Include="Resources\rincecochon.jpg" />
-    <BundleResource Include="Resources\paixdieu.jpg" />
     <BundleResource Include="Resources\corbeau.jpg" />
     <BundleResource Include="Resources\despe.jpg" />
     <BundleResource Include="Resources\tripel.jpg" />
     <BundleResource Include="Resources\guldendraak.jpg" />
     <BundleResource Include="Resources\pietra.jpg" />
+    <BundleResource Include="Resources\paixdieu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Renderers\" />
   </ItemGroup>
 </Project>

@@ -45,16 +45,17 @@
 /Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/bin/iPhoneSimulator/Debug/MyBeerApp.dll
 /Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/bin/iPhoneSimulator/Debug/MyBeerApp.pdb
-/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/ibtool/_BundleResourceWithLogicalName.items
-/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/actool/_PartialAppManifest.items
-/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/actool/_BundleResourceWithLogicalName.items
-/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/coremlc/_PartialAppManifest.items
-/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/coremlc/_BundleResourceWithLogicalName.items
-/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/optimized/icon.png
-/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/optimized/plus.png
-/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/optimized/
 /Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/MyBeerApp.iOS.csprojAssemblyReference.cache
 /Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/MyBeerApp.iOS.csproj.CoreCompileInputs.cache
 /Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/MyBeerApp.iOS.csproj.CopyComplete
 /Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/MyBeerApp.iOS.exe
 /Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/MyBeerApp.iOS.pdb
+/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/actool/_PartialAppManifest.items
+/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/actool/_BundleResourceWithLogicalName.items
+/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/coremlc/_PartialAppManifest.items
+/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/optimized/icon.png
+/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/optimized/plus.png
+/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/optimized/paixdieu.png
+/Users/elise/Desktop/MyBeerApp/MyBeerApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.4/optimized/

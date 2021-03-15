@@ -9,6 +9,11 @@ namespace MyBeerApp
         {
             InitializeComponent();
             this.BindingContext = new BeerViewModel();
+            if (Device.RuntimePlatform == Device.Android)
+            {
+                NavigationPage.SetHasNavigationBar(this, false);
+
+            }
         }
 
         async void ListOfBeers_ItemTapped(System.Object sender, Xamarin.Forms.ItemTappedEventArgs e)

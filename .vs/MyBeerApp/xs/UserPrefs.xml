@@ -1,23 +1,26 @@
-﻿<Properties HasIOSDesignerOverlayBeenDismissed="True" StartupConfiguration="{F1169C5C-3128-432D-BEC1-B40FC8AD94AF}|Default">
+﻿<Properties HasIOSDesignerOverlayBeenDismissed="True" StartupConfiguration="{51274961-B139-450B-A75D-5D93FF94901D}|Default">
   <MonoDevelop.Ide.ItemProperties.MyBeerApp.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1396B265-CD56-4253-98BB-121D04E8FF91" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyBeerApp/MainPage.xaml.cs">
-    <Files>
-      <File FileName="MyBeerApp/MainPage.xaml.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MyBeerApp" expanded="True">
             <Node name="MyBeerApp" expanded="True">
-              <Node name="ViewModel" expanded="True" />
+              <Node name="ViewModel" expanded="True">
+                <Node name="BeerViewModel.cs" selected="True" />
+              </Node>
               <Node name="App.xaml" expanded="True" />
               <Node name="BeerDetailPage.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
             </Node>
-            <Node name="MyBeerApp.Android" expanded="True" selected="True">
-              <Node name="Resources" expanded="True" />
+            <Node name="MyBeerApp.Android" expanded="True">
+              <Node name="Renderers" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
             </Node>
             <Node name="MyBeerApp.iOS" expanded="True">
+              <Node name="Renderers" expanded="True" />
               <Node name="Resources" expanded="True" />
             </Node>
           </Node>
@@ -30,6 +33,6 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.MyBeerApp.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.MyBeerApp.Android TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_2_q_10_0_-_api_29" />
   <MultiItemStartupConfigurations />
 </Properties>
